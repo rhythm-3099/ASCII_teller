@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#57606f"
+    android:orientation="vertical"
+    tools:context=".table">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:layout_marginTop="26dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Important sets"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="35dp"
+            android:textStyle="bold"
+            android:textSize="44sp"
+            android:textColor="#dfe4ea"/>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="126dp"
+                    android:layout_height="wrap_content"
+                    android:text="Lowercase letters"
+                    android:layout_marginLeft="12dp"
+                    android:textSize="26sp"
+                    android:textColor="#dfe4ea"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="a - z"
+                    android:textSize="26sp"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#dfe4ea"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="97 - 122"
+                    android:textSize="26sp"
+                    android:layout_marginLeft="35dp"
+                    android:textColor="#dfe4ea"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26sp">
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:text="Uppercase Letters"
+                android:layout_marginLeft="12dp"
+                android:textSize="26sp"
+                android:textColor="#dfe4ea"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A - Z"
+                android:textSize="26sp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#dfe4ea"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="65 - 90"
+                android:textSize="26sp"
+                android:layout_marginLeft="35dp"
+                android:textColor="#dfe4ea"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp">
+
+            <TextView
+                android:layout_width="126dp"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:text="Numbers"
+                android:layout_marginLeft="12dp"
+                android:textColor="#dfe4ea"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 - 9"
+                android:textSize="26sp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#dfe4ea"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:text="48 - 57"
+                android:layout_marginLeft="35dp"
+                android:textColor="#dfe4ea"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="118dp"
+            android:layout_height="53dp"
+            android:text="main menu"
+            android:layout_gravity="center"
+            android:layout_marginTop="26dp"
+            android:id="@+id/btn_main_menu"/>
+    </LinearLayout>
+
+</LinearLayout>

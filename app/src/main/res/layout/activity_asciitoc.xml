@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a4b0be"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".asciitoc">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the ascii code"
+        android:layout_marginLeft="10dp"
+        android:textSize="42sp"
+        android:layout_marginTop="16dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="98dp"
+        android:layout_marginRight="98dp"
+        android:textSize="44sp"
+        android:background="#535c68"
+        android:textColor="#e2e1e1"
+        android:id="@+id/ascii_input"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="98dp"
+        android:layout_marginLeft="125dp"
+        android:text="GO!"
+        android:textSize="44dp"
+        android:id="@+id/btn_go_ascii"
+        android:background="#dfe4ea"
+        android:textColor="#57606f"
+        />
+
+</LinearLayout>

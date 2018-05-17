@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#2f89c6"
+    tools:context=".info">
+
+    <ImageView
+        android:layout_width="262dp"
+        android:layout_height="260dp"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/rhythmorig" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="44dp">
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/github"
+            android:id="@+id/github"
+            />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/linkuse"
+            android:layout_marginLeft="26dp"
+            android:id="@+id/linkedin"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="99dp"
+        android:layout_height="53dp"
+        android:text="BACK"
+        android:background="#7ce6e9"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="26dp"
+        android:id="@+id/btn_back"/>
+
+</LinearLayout>

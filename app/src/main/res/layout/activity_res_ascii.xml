@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#a4b0be"
+    tools:context=".res_ascii">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The character is:"
+        android:layout_marginLeft="26dp"
+        android:textSize="33dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/char_res_ascii"
+        android:layout_marginLeft="44dp"
+        android:textSize="44dp"
+        android:layout_marginTop="42dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The ASCII value is:"
+        android:textSize="33dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="35dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ascii_res_ascii"
+        android:layout_marginLeft="44dp"
+        android:textSize="44dp"
+        android:layout_marginTop="42dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main menu"
+        android:textSize="26dp"
+        android:background="#dfe4ea"
+        android:textColor="#57606f"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="80dp"
+        android:id="@+id/btn_main_menu"/>
+
+</LinearLayout>
